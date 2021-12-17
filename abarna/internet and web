@@ -1,0 +1,71 @@
+Internet works
+*the data that are sending by cable
+*stored companies like
+*google
+*facebook and other companies
+*data is transmitted through via satellite
+so the solution is to find the data on the internet circulates through the fiber optics cables
+*data we want to store is stored in a data content on a SSD(solid state drive)server
+IP address is given by ISD(internet service provider)DNS Server is specifically matches the websites
+and host names
+DNS server contains the database of public IP address
+* Fiber optic cable -> (light pluse)Router -> (electrical signal )Internet cable or wifi.
+* When we use mobile data ( foc->(electromagnetic waves )cell tower).
+DATA SERVER:
+*Is to identify the computers by IP address
+*DNS converts names to numbers(IP address)
+*Path to identify IP address
+system->
+1. Resolves name to Ip address.
+2. If the IP address doesn't match it will send a query to the Resolver server.If it doesn't match again
+send a query to the Root server.
+root server->
+1.Top or root of the DNS hierarchy.
+2. 13 set of root servers around the world.Each one has an IP Address.
+3. They are operated by 12 different organisations.
+<->TLD<->Authoritative name server.
+1.If root server doesn't find an IP address it will direct the resolver to the TLD(top level
+domain).TLD server stores the address information for top level domains like .com, .net and
+.org.
+2.If TLD doesn't know IP address it will direct us to Authoritative name servers.It is
+responsible for knowing Everything.
+3.Once an IP address is found it will be stored in the cache memory.
+*If the resolver receives the ip address it will store in cache memory.HTTP-Hypertext transfer protocol
+*used for viewing webpages on the internet
+*if we type web address it will automatically added at the beggining of the web address
+* so all information is exchanged between computer and the web server
+*any information that we type on website will transferd over the PUBLIC INTERNET
+*and it is vulnerable to anybody who wants like hackers In order to
+avoid this HTTPS is developed.
+HTTPS(hypertext protocol secure)
+1.It will make data impossible to read and it is done by using Encryption Algorithms.
+-->SSL
+1.Data is secured by using one of the protocols called Secure Socket Layer.It is used to
+ensure security on the Internet.
+2.The computer will ask for identity proof.The web server will send a certificate to prove
+their ID.Once it is done it will send an acknowledgement to the web server.Finally the
+encrypted data is exchanged between computer and web server.
+-->TLS
+TLS is designed to secure data against hackers and helps ensure that sensitive information
+such as passwords and credit card numbers are safe.It is generally used to encrypt
+communication among web packages and servers, including a web browser loading page. It
+can be used for encrypting different voice messages for texts and IP.
+Basics of web:
+1. Web server - leading -> apache,IIS,lightpad,Jagspaw.
+2. Web browser - leading-> Explorer,Firefox,Netscape and safari.
+3.Routers and Switchers
+HTML ,CSS ,JAVA script thus are used in web page.
+* components in web page,
+* user interface
+* rendering engine ( html ,css) , used for visual reprentation
+*HTML (mark up the content)
+* CSS ( style and animate the content)
+* Browser engine (interact between UI and rendering engine)
+* To recive content browser wil communicate with network .
+* 404 implies that unable to fetch the content.
+* JAVA SCRIPT interpriter
+* browser have its own JS interpriter
+* Rendering engine reads the code and construst the DOM (document object model).
+*DOM contains nodes , nodes can be image , text etc.
+* After contructing the render tree the layout process starts.
+* Render tree reverse the code by UI backend layers .
